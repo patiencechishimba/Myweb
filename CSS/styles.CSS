@@ -1,0 +1,135 @@
+body {
+  font-family: 'Inter', sans-serif;
+  color: #4a4038;
+  background-color: #faf6f1;
+  margin: 0;
+  line-height: 1.7;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+header {
+  background-color: #e8c4c4;
+  color: #4a4038;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin: 0 0 10px;
+  letter-spacing: 1px;
+}
+
+header p {
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #6b5d52;
+}
+
+nav {
+  background-color: #fdfaf7;
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #ecd9d9;
+}
+
+nav a {
+  color: #b98787;
+  margin: 0 18px;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+nav a:hover {
+  color: #8a5a5a;
+  border-bottom: 2px solid #b98787;
+}
+
+main {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+section {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+  color: #8a5a5a;
+  font-size: 1.6rem;
+  margin-top: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #f0e6e0;
+}
+
+th {
+  background-color: #f7e8e8;
+  color: #6b5d52;
+  font-weight: 600;
+}
+
+.gallery-item img,
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+video, audio {
+  width: 100%;
+  border-radius: 12px;
+}
+
+form label {
+  display: block;
+  margin-top: 14px;
+  font-weight: 500;
+  color: #6b5d52;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ecd9d9;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+button {
+  margin-top: 18px;
+  background-color: #b98787;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+button:hover {
+  background-color: #8a5a5a;
+}
